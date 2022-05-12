@@ -1,0 +1,40 @@
+concept_the_witcher_3_leshens
+
+=> nrel_main_idtf:     
+	[Леший]   (*<-lang_ru;;*);
+     	 [Leshens]  (*<-lang_en;;*);  
+
+<-sc_node_not_relation;
+
+
+
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+	<= nrel_sc_text_translation: ... (*
+	-> rrel_example:[Леший (ориг. Leszy) — существо в литературной саге и игровой серии, населяющее густые леса, хозяин леса, контролирующий животных и растения. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+    => nrel_main_idtf: [Опр.(Леший)](*<- lang_ru;;*);;
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв.1 (О лешем)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[     Является родственным с бесами видом и очень похож на него: огромное существо, передвигающееся на четырех конечностях, имеет огромные рога, третий глаз во лбу.
+
+    Черт меньше беса по размерам, а также отличается формой рогов — они у него не ветвистые, оленьи, а завитые, бараньи. Эти существа предпочитают обитать в лесных чащобах или неглубоких пещерах, яростно охраняют свою территорию и свирепо расправляются с любым конкурентом. Черты всеядны и не брезгуют ни мясом, ни растительной пищей. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+  *);
+  <- rrel_key_sc_element: ... (*
+	<- illustration;;
+	<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example: "file://images/leshens.jpg"
+		(*
+			=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);;
+

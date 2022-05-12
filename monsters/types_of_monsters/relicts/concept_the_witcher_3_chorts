@@ -1,0 +1,40 @@
+concept_the_witcher_3_chorts
+
+=> nrel_main_idtf:     
+	[Чёрт]   (*<-lang_ru;;*);
+     	 [Chorts]  (*<-lang_en;;*);  
+
+<-sc_node_not_relation;
+
+
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+	<= nrel_sc_text_translation: ... (*
+	-> rrel_example:[Чёрт (ориг. Chort) — чудовище в играх Ведьмак 3: Дикая Охота и Ведьмак: Охотник на чудовищ, родственник беса с бараньими рогами. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+    => nrel_main_idtf: [Опр.(Чёрт)](*<- lang_ru;;*);;
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв.1 (О чертах)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[     Является родственным с бесами видом и очень похож на него: огромное существо, передвигающееся на четырех конечностях, имеет огромные рога, третий глаз во лбу.
+
+    Черт меньше беса по размерам, а также отличается формой рогов — они у него не ветвистые, оленьи, а завитые, бараньи. Эти существа предпочитают обитать в лесных чащобах или неглубоких пещерах, яростно охраняют свою территорию и свирепо расправляются с любым конкурентом. Черты всеядны и не брезгуют ни мясом, ни растительной пищей. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+  *);
+  
+  <- rrel_key_sc_element: ... (*
+	<- illustration;;
+	<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example: "file://images/chorts.jpg"
+		(*
+			=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);;
+

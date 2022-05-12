@@ -1,0 +1,54 @@
+concept_the_witcher_3_nimph_race_dryad
+
+=> nrel_main_idtf:     
+	 [Дриада (Ведьмак 3)]   (*<-lang_ru;;*);
+      [Dryad (The Witcher 3)]  (*<-lang_en;;*);  
+
+<-sc_node_not_relation;
+
+<=nrel_inclusion: concept_the_witcher_3_nimph_race;
+
+<- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Дриада (Ведьмак 3))] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Дриады  — прекрасные и гордые воительницы, живущие в лесу Брокилон.](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+  *);
+
+
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв.1 (Об особенностях дриад)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Дриады принимают в свои ряды и человеческих девочек, подкинутых или потерявшихся в лесу.](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+  *);
+
+<- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв.2 (Об образе жизни дриад)] (* <- lang_ru;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> rrel_example:
+[Дриады имеют подобие государственной структуры, искусства и своеобразные ремёсла.](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+  *);
+
+
+<- rrel_key_sc_element: ... (*
+	<- illustration;;
+	<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example: "file://images/dryad.png"
+		(*
+			=> nrel_format: format_png;;
+		*);;
+	=>nrel_main_idtf: 
+	 [Иллюстрация (Дриада)]   (*<-lang_ru;;*);;
+	*);;
+*);;

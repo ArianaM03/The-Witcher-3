@@ -1,0 +1,55 @@
+concept_the_witcher_3_necrophages
+
+=> nrel_main_idtf:     
+	[Трупоеды]   (*<-lang_ru;;*);
+     	 [Necrophages]  (*<-lang_en;;*);  
+
+<-sc_node_not_relation;
+
+
+<= nrel_subdividing: ...
+(*
+	->concept_the_witcher_3_abaya;;
+	->concept_the_witcher_3_alghoul;;
+	->concept_the_witcher_3_devourer;;
+	->concept_the_witcher_3_drowned_dead;;
+	->concept_the_witcher_3_drowner;;
+	->concept_the_witcher_3_foglet;;
+	->concept_the_witcher_3_ghoul;;
+	->concept_the_witcher_3_grave_hag;;
+	->concept_the_witcher_3_ignis_fatuus;;
+	->concept_the_witcher_3_mourntart;;
+	->concept_the_witcher_3_mucknixer;;
+	->concept_the_witcher_3_water_hag;;
+	->concept_the_witcher_3_rotfiend;;
+	=> nrel_main_idtf:[по видам] (* <- lang_ru;; *);;
+*);    
+
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+	<= nrel_sc_text_translation: ... (*
+	-> rrel_example:[Трупоеды, или падальщики, или некрофаги (ориг. Necrophage, от греч. nekros — труп, и phagein — есть, питаться) — класс монстров в литературной саге, а также в играх Ведьмак, Ведьмак 2: Убийцы Королей,  <b><sc_element sys_idtf="concept_game_the_witcher_3_wild_hunt">Ведьмак 3: Дикая Охота</b></sc_element>](*<-lang_ru;; => nrel_format: format_html;;*);;
+      *);;
+    => nrel_main_idtf: [Опр.(Трупоеды)](*<- lang_ru;;*);;
+*);
+
+<- rrel_key_sc_element: ... (*
+	<- illustration;;
+	<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example: "file://images/necrophages.jpg"
+		(*
+			=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);
+
+<- rrel_key_sc_element: ... (*
+	<- definition;;
+	=> nrel_main_idtf: [Утв.(Трупоеды)](*<- lang_ru;;*);;
+ 	=> nrel_main_idtf: [St.(Necrophages)](*<- lang_en;;*);;
+	<= nrel_sc_text_translation: ... (*
+	-> rrel_example:[Общим для монстров этого класса является поедание человеческих и иных останков, хотя Трупоеды могут нападать и на живого человека. Обитают обычно на кладбищах, лобных местах массовых казней, полях сражений и прочих местах, где могут поживиться относительно свежей мертвечиной.](*<- lang_ru;;*);;
+*);;
+*);;
+
